@@ -10,8 +10,8 @@ BEGIN
 
     read (sen)
     WHILE length(sen) <> "." DO
-    FOR i FROM 1 TO sen.length STEP step  DO
-    FOR j FROM 1 TO sen.length STEP step  DO
+    FOR i FROM 1 TO sen.length STEP 1  DO
+    FOR j FROM 1 TO sen.length STEP 1  DO
 
        IF (sen[i] = " ") THEN
        space := space + 1
