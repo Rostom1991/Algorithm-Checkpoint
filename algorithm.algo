@@ -10,8 +10,8 @@ BEGIN
 
     read (sen)
     WHILE length(sen) <> "." DO
-    FOR i FROM 1 TO length(sen) STEP step  DO
-    FOR j FROM 1 TO length(sen) STEP step  DO
+    FOR i FROM 1 TO sen.length STEP step  DO
+    FOR j FROM 1 TO sen.length STEP step  DO
 
        IF (sen[i] = " ") THEN
        space := space + 1
@@ -24,7 +24,7 @@ BEGIN
         END_IF
     END_FOR
     END_WHILE
-    write ("Length of the sentence equals : " ,length(sen))
+    write ("Length of the sentence equals : " ,sen.length)
     write ("numbre of words is : " ,words)
     write ("number of vowels is : " ,vowels)
 
