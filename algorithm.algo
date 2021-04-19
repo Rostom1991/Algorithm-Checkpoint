@@ -1,7 +1,6 @@
 ALGORITHM Sentence
 VAR
     sen : STRING
-    i,j := 0
     space := 0
     vowels :=0
     words:= 0
